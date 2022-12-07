@@ -1,5 +1,7 @@
 # MNIST on device
 
+![main-image](./Docs/Assets/main.png)
+
 ## Introduction
 On-device MNIST inference example using STM32F746G-DISCO Board & Tensorflow Lite for Microcontroller(TFLM)
 
@@ -8,7 +10,10 @@ On-device MNIST inference example using STM32F746G-DISCO Board & Tensorflow Lite
 * [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
 * X-CUBE-AI 7.3.0 (Built in this project)
 
-## Tutorial
+## Handwriting
+TODO: Write this section
+
+## Inference Tutorial
 
 ### Project Setup
 1. Create new STM32 project in STM32CubeIDE
@@ -107,9 +112,11 @@ tflm_c_invoke(hdl);
 ```
 
 6. Create Output Tensor
+* After call the `tflm_c_invoke` function, the output data has been stored somewhere. We can get data by calling the `tflm_c_output` function. Then, we can use `tflm_c_tensor_info` structure to get the output data.
 ```c
 struct tflm_c_tensor_info output_tensor;
 tflm_c_output(hdl, 0, &output_tensor);
+
 float* output = (float*)output_tensor.data; // output[0], output[1], ..., output[9]
 ```
 
