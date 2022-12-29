@@ -171,6 +171,7 @@
 									<listOptionValue builtIn="false" value="../Middlewares/tensorflow/third_party/cmsis/CMSIS/Core/Include"/>
 									<listOptionValue builtIn="false" value="../Middlewares/tensorflow/third_party/cmsis"/>
 									<listOptionValue builtIn="false" value="../Middlewares/tensorflow/third_party/ruy"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc "/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.120400451" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.842144292" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -421,6 +422,7 @@
 									<listOptionValue builtIn="false" value="../Middlewares/tensorflow/third_party/cmsis/CMSIS/Core/Include"/>
 									<listOptionValue builtIn="false" value="../Middlewares/tensorflow/third_party/cmsis"/>
 									<listOptionValue builtIn="false" value="../Middlewares/tensorflow/third_party/ruy"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc "/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.2126711781" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.842144292" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
